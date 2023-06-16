@@ -1,0 +1,107 @@
+.logo{
+    margin-left: 100px;
+}
+.col-3 {
+    width: 33%;
+    float: left;
+}
+.menu{
+    margin-top: 40px;
+}
+header{
+    background-color: white;
+    height: 80px;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+#header-container{
+    width: 80%;
+    margin: auto;
+}
+.menu li {
+    list-style-type: none;
+    display: inline;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+}
+.getStarted{
+    background-color: lawngreen;
+    border-radius: 28px;
+    padding: 10px 26px;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#top-section-main{
+    background-image: url(../NewPage/Image/4k-avengers-in-red-mbfm4qw11ehaaw2s.jpg);
+    border: none;
+    height: 800px;
+}
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1{
+    font-size: 4em;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+#top-section-content p{
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 60px 0 120px 0;
+}
+
+.main-form h6{
+    font-size: .9em;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 450px;
+}
+.main-form input{
+    padding-left:10px;
+    font-size: 15px;
+    border: none;
+    margin: 0;
+    width: 20%;
+    height: 40px; 
+}
+.main-form button{
+    font-size: 15px;
+    border: none;
+    margin: 0;
+    width: 20%;
+    height: 40px; 
+}
+.main-form{
+    margin-left: 450px;
+}
+#feature-title{
+    padding: 100px 100px 500px 100px;
+    background-color: white;
+}
+.feature-title-main{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    line-height: 2.5em;
+}

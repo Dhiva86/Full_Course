@@ -1,0 +1,22 @@
+ .App {
+    text-align: center;
+   
+  }
+  
+  .home-component{
+    border: 1px solid black;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 80%;
+    height: 250pxpx;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 3px;
+  } 
+  
+
+

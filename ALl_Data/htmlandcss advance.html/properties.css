@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+*{
+    text-align: center;
+}
+.overflow-main{
+    width: 25%;
+    height: 300px;
+    border: 2px solid blue;
+    background-color: aqua;
+    overflow: auto;
+    font-family: 'Climate Crisis', cursive;
+}
+
+.measurements{
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    font-size: 25px;
+}
+#sample{
+    height: 1em;
+    width: 1em;   
+    background-color: blue;
+}
+#sample-2{  
+    height: 50px;
+    width: 50px;  
+    background-color: violet;
+}
+#percentage{
+    background-color: red;
+    height: 25%;
+    width: 25%;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color:red;
+    }
+    .overflow-main{
+        background-color: blueviolet;
+        font-size: medium;
+        color: azure;
+
+    }
+}

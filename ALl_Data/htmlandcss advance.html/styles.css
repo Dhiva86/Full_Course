@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#box-model{
+    
+    margin: 0 auto;
+    border: 4px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: coral;
+    padding: 20px 20px 20px 20px;
+}
+#positions{
+    border: 2px solid black;
+    margin: 15px;
+    height: 500px;
+    background-color: white;
+}
+.box{
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    color: white;
+}
+.Absolute{
+    background-color: blue;
+    position: absolute;
+    top: 1px;
+}
+.Relative{
+    background-color: green;
+    position: relative;
+    top: 15px;
+    right: 20px;
+    left: 100px;
+}
+.Sticky{
+    background-color: yellow;
+}
+.Fixed{
+    background-color: red;
+    position: fixed;
+}

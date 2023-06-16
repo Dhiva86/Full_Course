@@ -1,0 +1,33 @@
+.checked{
+    color: blue;
+}
+
+.header_name{
+    line-height: 2em;
+}
+#list_service{
+    list-style-type:none ;
+    line-height: 3em;
+}
+#list_satisfy li{
+    display: inline;
+   
+}
+#list_service input{
+    margin-left: 200px;
+}
+.range{
+     
+     margin-left: 170px;
+}
+#list_company{
+    list-style-type:none ;
+    line-height: 3em;
+}
+#list_like li{
+    display: inline;
+   
+}
+#list_company input{
+    margin-left: 150px;
+}

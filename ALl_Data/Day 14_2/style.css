@@ -1,0 +1,18 @@
+table{
+    margin-top: 50px;
+    text-align: center;
+    background-color: aqua;
+    color: chocolate;
+}
+
+#show th, #show td{
+    padding: 13px;
+}
+
+#btn td input{
+    width: 100%;
+}
+
+.form{
+    color: blue;
+}

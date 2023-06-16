@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="event">Event 1</h1>
+    <h3 class="number">Number of available seats: 23</h3>
+    <fieldset id="line" >   
+    <div id="list">  
+        <div  id="image" ><h4 class="circle">Image</h4></div>  
+     <ol class="event_1">          
+            <li>Name:<input type="text" placeholder="Ente the name" ></li>
+            <li>Email:<input type="text" placeholder="Enter the Email"></li>
+            <li>Phone No:<input type="text" placeholder="Enter the number"></li>
+            <li>Number of seats:
+                <input list="names">
+        <datalist id="names">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+          </datalist></li>
+            <li>Name of Attendee:<input type="text" placeholder="Name"></li>
+                <button type="Submit" >Submit</button>
+                <button type="cancel">Cancel</button>
+        </ol>
+    </div>
+</fieldset>
+</html>

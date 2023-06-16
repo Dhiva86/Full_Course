@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="form">Enter the Form</h1>
+   <table border="4">
+       <thead>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" name="fname" id="fname"></td>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" name="lname" id="lname"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><input type="text" name="addr" id="addr"></td>
+        </tr>
+        <tr>
+            <th>Pin Code</th>
+            <td><input type="text" name="pin" pattern="[0-9]{4}" maxlength="6" id="pin"></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><select id="gender">
+                <option selected >Choose One</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>Select Fruits</th>
+            <td><input list="Fruits" placeholder="Enter the fruit">
+                <datalist id="Fruits">
+                    <option>Apple</option>
+                    <option>Mango</option>
+                    <option>Banana</option>
+                    <option>Orange</option>
+                </datalist> </td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td><input type="text" name="state" id="state"></td>
+        </tr>
+          <tr>
+             <th>Country</th>
+            <td><input type="text" name="country" id="country"></td>
+        </tr>
+        <tr>
+           <td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+       </tr>        
+   </table>
+       </tbody>
+
+       <table border="4" id="show">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Pin Code</th>
+                <th>Gender</th>
+                <th>Fruits</th>
+                <th>State</th>
+                <th>Country</th>
+
+            </tr>
+        </thead>
+       </table>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

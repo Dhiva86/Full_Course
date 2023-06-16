@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11 Task 2 </title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main id="main">
+    <h3 class="header_name">Name :</h3>
+    <label for="first name">First Name<span style="color:red;" >*</span> </label>
+    <input type="text" placeholder="Enter the Name"
+     name="first name"/>  
+     <label for="first name">Last Name<span style="color:red;" >*</span> </label>
+     <input type="text" placeholder="Enter the Name"
+      name="last name"/>
+     <br/>
+
+     <label class="header_name" for="email">Email <span style="color:red;" >*</span></label>
+     <input type="email" placeholder="Enter the email"
+     name="email" required/><br/>
+
+     <div class="header_name" >Your Experiance <span style="color:red;" >*</span><span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span></div>
+        <h6>(Overall how you are rating with us?)</h6>
+
+        <div><h3>How satisfying you are<span style="color:red;" >*</span></h3>
+        <nav>
+            <ol id="list_satisfy">
+                <li class="range">Very unsatisfied</li>
+                <li class="range">Unsatisfied</li>
+                <li class="range">Neutral</li>
+                <li class="range">Satisfied</li>
+                <li class="range">Very satisfied</li>
+            </ol>
+            <ol id="list_service">
+                <li>Purchase<input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"></li>
+                <li>Service <input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"></li>
+                <li>Company Over all <input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"></li>
+            </ol>
+        </nav>
+        <h3>How likley you are <span style="color:red;" >*</span></h3>
+        <nav>
+            <ol id="list_like">
+                <li class="range">Very unlikely</li>
+                <li class="range">unlikely</li>
+                <li class="range">Neutral</li>
+                <li class="range">Likely</li>
+                <li class="range">Very likely</li>
+            </ol>
+            <ol id="list_company">
+                <li>Buy this from again<input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"></li>
+                <li>Recommend product others <input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"></li>
+                <li>Recommend company others <input type="radio"><input type="radio"><input type="radio"><input type="radio"><input type="radio"></li>
+            </ol>
+        </nav>
+        <h3>Additional Comments and Suggestions</h3>
+        <textarea placeholder="Tell your feedback"></textarea></br>
+        <button type="submit">Submit</button>
+        
+        
+        </div>
+
+    </main>
+</body>
+</html>

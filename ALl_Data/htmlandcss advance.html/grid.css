@@ -1,0 +1,90 @@
+*{
+    text-align: center;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 5rem;
+    height: 5vh;
+}
+li{
+    display: inline-block;
+   padding: 3px;
+   font-size: larger;
+}
+#home{
+display: grid;
+grid-template:
+"image" 45%
+"info" 40%;
+place-items: center;
+}
+#skills{
+    display: grid;
+grid-template:
+"image info" 95% ;
+place-items: center;
+}
+#about{
+    display: grid;
+    grid-template:
+    "image" 45%
+    "info" 40%;
+    place-items: center;     
+}
+#contact{
+    display: grid;
+    grid-template:
+    "image" 30%
+    "info" 40%; 
+    place-items: center; 
+}
+.com-section{
+    background-color: whitesmoke;
+    height: 95vh;
+    
+}
+.image{
+    
+    grid-area: image
+}
+.info{
+    
+    grid-area: info
+}
+.material-symbols-outlined{
+    visibility: hidden;
+}
+@media only screen and (min-width: 500px) and (max-width: 600px ) {
+    .name{
+        display: none;
+    }
+    .icons{
+        display: block;
+    }
+    .com-section{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 100%;
+    }
+    .info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .material-symbols-outlined{
+        visibility: visible;
+    }
+}
+    

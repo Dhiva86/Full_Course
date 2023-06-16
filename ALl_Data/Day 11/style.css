@@ -1,0 +1,26 @@
+.event, .number{
+    text-align: center;
+}
+
+#image{
+float: left;
+border-right: 100px;
+border: 2px solid black;
+margin: 50px 20px 70px 400px;
+padding: 65px 65px 65px 65px;
+border-radius: 10px;
+}
+.event_1{
+    margin-left: 700px;
+    list-style-type: none;
+   padding-top: 30px;
+   line-height: 2em;
+}
+#line{
+    border-color:black;
+  line-gap-override: 100px;
+}
+.circle{
+    border-radius: 20px;
+}
+
